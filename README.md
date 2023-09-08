@@ -1,1 +1,14 @@
 # Git-Commands
+### Git is a Distributed Version Control System, that plays a crucial role in modern software development. Therefore it becomes important to have a good command over it.
+---
+## *Basic Git Commands*
+
+
+### Setting up Your Git Identity
+| Command           | Description                               | Syntax                                      | Example(s)                                            |
+| ----------------- | ----------------------------------------- | ------------------------------------------- | ----------------------------------------------------- |
+| `git config --global user.name`        | Setup your name in Git       | `git config [option] <key> <value>`                    | `git config --global user.name Your-Name`                                 |
+| `git config --global user.email`        | Setup your mail in Git       | `git config [option] <key> <value>`                    | `git config --global user.email Your-mail@example.com`                                 |
+                          
+
+
