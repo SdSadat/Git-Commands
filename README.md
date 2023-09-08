@@ -39,7 +39,7 @@
 | `git push origin --delete <branch-name>`| Delete a remote branch|  `git push origin --delete feature-branch`|
 | `git checkout <branch-name>`| switch to a branch |  `git checkout feature-branch`|
 | `git checkout -b <branch-name>`| create a new branch and switch to it |  `git checkout -b feature-branch`|
-| `git checkout . `| Discard all changes in your working directory and <br /> revert the files to the last committed state. | -|
+| `git checkout . `| Discard all changes in your working directory and  revert the files to the last committed state. | -|
 
 
 
