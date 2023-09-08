@@ -36,11 +36,13 @@
 | `git branch <branch-name>`| Create a new branch|  `git branch feature-branch`|
 | `git branch -d <branch-name>`| Delete a merged branch    | `git branch -d feature-branch`|
 | `git branch -D <branch-name>`| Delete a branch (Merged or not)|  `git branch -D test-branch`|
+| `git branch -m <old-branch-name> <new-branch-name> `| Rename a branch | `git branch -m  feature-branch-v1.0  feature-branch-v2.0`|
 | `git push origin --delete <branch-name>`| Delete a remote branch|  `git push origin --delete feature-branch`|
 | `git checkout <branch-name>`| switch to a branch |  `git checkout feature-branch`|
 | `git checkout -b <branch-name>`| create a new branch and switch to it |  `git checkout -b feature-branch`|
 | `git checkout -- <file-name>`| Discard changes to a file | `git checkout -- test.txt`|
 | `git checkout . `| Discard all changes in your working directory and  revert the files to the last committed state. | -|
+
 
 
 
