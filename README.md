@@ -8,7 +8,7 @@
 | Command           | Description                               |  Example(s)                                            |
 | ----------------- | ----------------------------------------- |  ----------------------------------------------------- |
 | `git config --global user.name`        | Setup your name in Git   | `git config --global user.name Your-Name`                                 |
-| `git config --global user.email`        | Setup your mail in Git   | `git config --global user.email Your-mail@example.com`                                 |
+| `git config --global user.email`        | Setup your mail in Git   | `git config --global user.email Your-mail@example.com`  |
 
 ---
 
@@ -39,6 +39,7 @@
 | `git push origin --delete <branch-name>`| Delete a remote branch|  `git push origin --delete feature-branch`|
 | `git checkout <branch-name>`| switch to a branch |  `git checkout feature-branch`|
 | `git checkout -b <branch-name>`| create a new branch and switch to it |  `git checkout -b feature-branch`|
+| `git checkout -- <file-name>`| Discard changes to a file | `git checkout -- test.txt`|
 | `git checkout . `| Discard all changes in your working directory and  revert the files to the last committed state. | -|
 
 
