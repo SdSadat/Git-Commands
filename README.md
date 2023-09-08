@@ -1,5 +1,5 @@
 # Git-Commands
-### Commonly used Git Commands
+
 ---
 ## *Basic Git Commands*
 
