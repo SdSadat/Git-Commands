@@ -28,3 +28,27 @@
 | `git add -A`| Add all new and changed files to staging area     | -|
 | `git commit`| Commit staged changes|  `git commit -m "latest bug fix"`|
 ---
+
+### Branching
+| Command                 | Description                               | Example(s)                                            |
+| ------------------------ | ----------------------------------------- |----------------------------------------------------- |
+| `git branch` | List branches|  -|
+| `git branch <branch-name>`| Create a new branch|  `git branch feature-branch`|
+| `git branch -d <branch-name>`| Delete a merged branch    | `git branch -d feature-branch`|
+| `git branch -D <branch-name>`| Delete a branch (Merged or not)|  `git branch -D test-branch`|
+| `git push origin --delete <branch-name>`| Delete a remote branch|  `git push origin --delete feature-branch`|
+| `git checkout <branch-name>`| switch to a branch |  `git checkout feature-branch`|
+| `git checkout -b <branch-name>`| create a new branch and switch to it |  `git checkout -b feature-branch`|
+| `git checkout . `| Discard all changes in your working directory and <br /> revert the files to the last committed state. | -|
+
+
+
+### Common Configuration
+
+| Command                                        | Description                        | Example(s)                                          |
+| ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
+| `git config --global alias.<alias-name> <git command>`       | Configure Git aliases              | `git config --global alias.co checkout`               |
+| `git config --global core.editor`              | Configure default text editor      | `git config --global core.editor "code"`               |
+| `git config --global --edit`                   | Edit Git configuration in an editor | -                                               |
+
+---
