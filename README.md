@@ -22,7 +22,7 @@
 
 ### Commiting Changes
 | Command                 | Description                               | Syntax                                      | Example(s)                                            |
-| ------------------------ | ----------------------------------------- | ------------------------------------------- | ----------------------------------------------------- |
+| ----------------------------------------------- | ----------------------------------------- | ------------------------------------------- | ----------------------------------------------------- |
 | `git status`               | Show the status of Working Directory    | `git status`                    | -                                |
 | `git add`                   | Add files to staging Area      | `git add [file(s)]`                    | `git add file1.txt file2.txt`                               |
 | `git add -A`             | Add all new and changed files to staging area     | -                   | -                               |
