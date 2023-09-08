@@ -43,6 +43,16 @@
 | `git checkout -- <file-name>`| Discard changes to a file | `git checkout -- test.txt`|
 | `git checkout . `| Discard all changes in your working directory and  revert the files to the last committed state. | -|
 
+---
+### Merging
+
+| Command                                        | Description                        | Example(s)                                          |
+| ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
+| `git merge <branch-name>`       | Merge a branch          | `git merge feature-branch`               |
+| `git merge <source-branch> <target-branch>`              |Merge a branch into target branch | `git merge feature-V1 feature-V0`               |
+|
+
+
 
 
 
