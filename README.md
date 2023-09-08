@@ -14,15 +14,15 @@
 
 ### Getting started with Git
 | Command           | Description                               | Syntax                                      | Example(s)                                            |
-| ----------------- | ----------------------------------------- | ------------------------------------------- | ----------------------------------------------------- |
+| ------------------------ | ----------------------------------------- | ------------------------------------------- | ----------------------------------------------------- |
 | `git init`        | Initialize empty Git repository    | `git init [directory]`                    | `git init new-project`                                 |
 | `git clone`        | Clone a repository from remote server      | `git clone [URL] [directory]`                    | `git clone https://github.com/user/repo.git`                                 |
 
 ---
 
 ### Commiting Changes
-| Command           | Description                               | Syntax                                      | Example(s)                                            |
-| ----------------- | ----------------------------------------- | ------------------------------------------- | ----------------------------------------------------- |
+| Command                 | Description                               | Syntax                                      | Example(s)                                            |
+| ------------------------ | ----------------------------------------- | ------------------------------------------- | ----------------------------------------------------- |
 | `git status`        | Show the status of Working Directory    | `git status`                    | -                                |
 | `git add`        | Add files to staging Area      | `git add [file(s)]`                    | `git add file1.txt file2.txt`                               |
 | `git add -A`        | Add all new and changed files to staging area     | -                   | -                               |
