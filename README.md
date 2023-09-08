@@ -50,7 +50,6 @@
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
 | `git merge <branch-name>`       | Merge a branch          | `git merge feature-branch`               |
 | `git merge <source-branch> <target-branch>`              |Merge a branch into target branch | `git merge feature-V1 feature-V0`               |
-|
 ---
 ### Stashing
 
