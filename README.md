@@ -1,5 +1,5 @@
 # Git-Commands
-### Git is a Distributed Version Control System, that plays a crucial role in modern software development. Therefore it becomes important to have a good command over it.
+### Commonly used git commands
 ---
 ## *Basic Git Commands*
 
