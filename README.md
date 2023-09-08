@@ -51,10 +51,24 @@
 | `git merge <branch-name>`       | Merge a branch          | `git merge feature-branch`               |
 | `git merge <source-branch> <target-branch>`              |Merge a branch into target branch | `git merge feature-V1 feature-V0`               |
 |
+---
+### Stashing
+
+| Command                                        | Description                        | Example(s)                                          |
+| ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
+| `git stash`       |store modified and staged changes         | -              |
+| `git stash save "comment"`              |stash the modified changes with description| `git stash save "Work in Progress - Feature 1"`               |
+| `git stash list`              |List all stashes| -               |
+| `git stash apply`              |Applies the most recent stash entry to your working directory, without deleting the stash entry| -               |
+| `git stash pop`              |Applies the most recent stash entry to your working directory and deletes it| -               |
+| `git stash show`              |Show the difference summary of recent stash entry| -               |
+| `git stash drop`              |Delete the recent stash entry without applying it| -               |
+| `git stash clear`              |Delete all stash entries| -               |
 
 
 
 
+---
 
 ### Common Configuration
 
