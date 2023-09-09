@@ -129,6 +129,7 @@
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
 | `git log -S "string"`       | Search git commits with particular string            | `git log -S "feature"`               |
 | `git clean -f`              | clean all untracked files    | -              |
-| `git config --global --edit`                   | Edit Git configuration in an editor | -                                               |
+| `git commit --amend`                   | Amends the most recent commit with the new changes | -                                               |
+| `git show <commit> --stat`                   | display a histogram showing inserts,deletion and modifications per file for a specific commtit along with general commit information| -                                               |
 
 ---
