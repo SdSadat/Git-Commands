@@ -80,7 +80,16 @@
 
 
 ---
+### Git commands related to remote repositories
 
+| Command                                        | Description                        | Example(s)                                          |
+| ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
+| `git remote`       |view all remote connections        | -              |
+| `git remove remove <connection-name>`              |Remove a connection| -               |
+
+
+
+---
 ### Common Configuration
 
 | Command                                        | Description                        | Example(s)                                          |
