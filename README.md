@@ -59,6 +59,7 @@
 | `git status`       | Displays the current status of your working directory and staged changes   | -               |
 | `git log`              | Displays a detailed commit history of the current branch | -          |
 | `git log --oneline`              |Displays a simplified commit history of the current branch in a compact format | -          |
+| `git diff`              | Shows the differences between your working directory and the most recent commit | -          |
 
 ---
 ### Stashing
