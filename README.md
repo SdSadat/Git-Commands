@@ -91,7 +91,7 @@
 | `git fetch origin`       |Fetch the changes from remote repository without merging   | -|
 | `git fetch origin <branch-name>`       |fetch changes from a remote branch without merging  | `git fetch origin main`           |
 | `git remote`       |view all remote connections        | -              |
-| `git remove remove <connection-name>`              |Remove a connection| -               |
+| `git remote remove <connection-name>`              |Remove a connection| -               |
 
 
 
