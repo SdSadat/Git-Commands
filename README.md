@@ -50,6 +50,8 @@
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
 | `git merge <branch-name>`       | Merge a branch          | `git merge feature-branch`               |
 | `git merge <source-branch> <target-branch>`              |Merge a branch into target branch | `git merge feature-V1 feature-V0`               |
+| `git merge --squash <branch-name>`              |Merge a branch with all commits squashed into single commit | `git merge --squash feature-V0`               |
+
 ---
 
 ### Reviewing
@@ -107,7 +109,7 @@
 | `git  reset --soft <commit>`       | Moves the branch pointer to the specified commit, preserving the changes in your working directory and staging area.       | `git reset --soft abc123`               |
 | `git  reset --hard <commit>`       | Moves the branch pointer to the specified commit and discards all changes, both in the working directory and staging area (Deletes all commits ahead of it).      | `git reset --hard abc123`               |
 | `git  revert <commit>`       | Creates a new commit that undoes the changes introduced by the specified commit       | `git revert abc123`               |
-| `git  rm <file>`       | Remove file from Working Directory and stagin area      | `git rm test.txt`               |
+| `git  rm <file>`       | Remove file from Working Directory and staging area      | `git rm test.txt`               |
 | `git  rm --cached <file>`       | Remove file from staging area only      | `git rm --cached test.txt`               |
 
 
@@ -118,6 +120,15 @@
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
 | `git config --global alias.<alias-name> <git command>`       | Configure Git aliases              | `git config --global alias.co checkout`               |
 | `git config --global core.editor`              | Configure default text editor      | `git config --global core.editor "code"`               |
+| `git config --global --edit`                   | Edit Git configuration in an editor | -                                               |
+
+---
+### Miscellaneous
+
+| Command                                        | Description                        | Example(s)                                          |
+| ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
+| `git log -S "string"`       | Search git commits with particular string            | `git log -S "feature"`               |
+| `git clean -f`              | clean all untracked files    | -              |
 | `git config --global --edit`                   | Edit Git configuration in an editor | -                                               |
 
 ---
