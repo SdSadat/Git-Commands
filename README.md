@@ -84,6 +84,10 @@
 
 | Command                                        | Description                        | Example(s)                                          |
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
+| `git push`       |Push changes to remote repository       | -              |
+| `git pull`       |Fetch the latest update from remote repository and merge with local one      | -              |
+| `git push origin <branch-name>`       |Push a branch to the remote repository      | `git push origin feature-branch`              |
+| `git push origin --delete <branch-name>`       |Delete a remote branch    | `git push origin --delete feature-branch`           |
 | `git remote`       |view all remote connections        | -              |
 | `git remove remove <connection-name>`              |Remove a connection| -               |
 
