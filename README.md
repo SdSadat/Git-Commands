@@ -104,6 +104,8 @@
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
 | `git  revert <commit>`       | Creates a new commit that undoes the changes introduced by the specified commit       | `git revert abc123`               |
 | `git revert <commit1> <commit2> ... <commit n>`              |Reverts a range of commits, creating new commits that undo the changes introduced by each of them. | `git revert abc123 xyz987`               |
+| `git  reset --soft <commit>`       | Moves the branch pointer to the specified commit, preserving the changes in your working directory and staging area.       | `git reset --soft abc123`               |
+
 ---
 ### Common Configuration
 
