@@ -1,10 +1,11 @@
 # Git-Commands
 
 ---
+
 ## *Basic Git Commands*
 
+### **Setting up Your Git Identity**
 
-### Setting up Your Git Identity
 | Command           | Description                               |  Example(s)                                            |
 | ----------------- | ----------------------------------------- |  ----------------------------------------------------- |
 | `git config --global user.name`        | Setup your name in Git   | `git config --global user.name Your-Name`                                 |
@@ -12,7 +13,8 @@
 
 ---
 
-### Getting started with Git
+### **Getting started with Git**
+
 | Command           | Description                                 | Example(s)                                            |
 | ------------------------ | -----------------------------------------  |----------------------------------------------------- |
 | `git init`        | Initialize empty Git repository    | `git init new-project`                                 |
@@ -20,7 +22,8 @@
 
 ---
 
-### Commiting Changes
+### **Commiting Changes**
+
 | Command                 | Description                               | Example(s)                                            |
 | ------------------------ | ----------------------------------------- |----------------------------------------------------- |
 | `git status` | Show the status of Working Directory|  -|
@@ -29,22 +32,24 @@
 | `git commit`| Commit staged changes|  `git commit -m "latest bug fix"`|
 ---
 
-### Branching
+### **Branching**
+
 | Command                 | Description                               | Example(s)                                            |
 | ------------------------ | ----------------------------------------- |----------------------------------------------------- |
 | `git branch` | List branches|  -|
 | `git branch <branch-name>`| Create a new branch|  `git branch feature-branch`|
 | `git branch -d <branch-name>`| Delete a merged branch    | `git branch -d feature-branch`|
 | `git branch -D <branch-name>`| Delete a branch (Merged or not)|  `git branch -D test-branch`|
-| `git branch -m <old-branch-name> <new-branch-name> `| Rename a branch | `git branch -m  feature-branch-v1.0  feature-branch-v2.0`|
+| `git branch -m <old-branch-name> <new-branch-name>`| Rename a branch | `git branch -m  feature-branch-v1.0  feature-branch-v2.0`|
 | `git push origin --delete <branch-name>`| Delete a remote branch|  `git push origin --delete feature-branch`|
 | `git checkout <branch-name>`| switch to a branch |  `git checkout feature-branch`|
 | `git checkout -b <branch-name>`| create a new branch and switch to it |  `git checkout -b feature-branch`|
 | `git checkout -- <file-name>`| Discard changes to a file | `git checkout -- test.txt`|
-| `git checkout . `| Discard all changes in your working directory and  revert the files to the last committed state. | -|
+| `git checkout .`| Discard all changes in your working directory and  revert the files to the last committed state. | -|
 
 ---
-### Merging
+
+### **Merging**
 
 | Command                                        | Description                        | Example(s)                                          |
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
@@ -54,7 +59,7 @@
 
 ---
 
-### Reviewing
+### **Reviewing**
 
 | Command                                        | Description                        | Example(s)                                          |
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
@@ -65,7 +70,8 @@
 | `git diff <commit1> <commit2>`              | Compares two commits and displays the differences between themt | `git diff abc123 xyz987`        |
 
 ---
-### Stashing
+
+### **Stashing**
 
 | Command                                        | Description                        | Example(s)                                          |
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
@@ -78,11 +84,9 @@
 | `git stash drop`              |Delete the recent stash entry without applying it| -               |
 | `git stash clear`              |Delete all stash entries| -               |
 
-
-
-
 ---
-### Git commands related to remote repositories
+
+### **Git commands related to remote repositories**
 
 | Command                                        | Description                        | Example(s)                                          |
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
@@ -97,10 +101,9 @@
 | `git remote rename <old-name> <new-name>`              |Rename a connection| -            |
 | `git pull --rebase origin`              |Rebase local changes on top of new changes from remote repository| -               |
 
-
-
 ---
-### Reverting and Resetting Commands
+
+### **Reverting and Resetting Commands**
 
 | Command                                        | Description                        | Example(s)                                          |
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
@@ -112,9 +115,9 @@
 | `git  rm <file>`       | Remove file from Working Directory and staging area      | `git rm test.txt`               |
 | `git  rm --cached <file>`       | Remove file from staging area only      | `git rm --cached test.txt`               |
 
-
 ---
-### Common Configuration
+
+### **Common Configuration**
 
 | Command                                        | Description                        | Example(s)                                          |
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
@@ -123,7 +126,8 @@
 | `git config --global --edit`                   | Edit Git configuration in an editor | -                                               |
 
 ---
-### Miscellaneous
+
+### **Miscellaneous**
 
 | Command                                        | Description                        | Example(s)                                          |
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
