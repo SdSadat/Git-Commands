@@ -134,5 +134,15 @@
 | `git bisect`                   | A powerful Git command used to find the commit that introduced a bug or regression in your codebase. It performs a binary search through the commit history to identify the specific commit where the issue was introduced.| `git bisect start` , `git bisect good` , `git bisect bad`                                          |
 | `git commit --amend`                   | Amends the most recent commit with the new changes | -                                               |
 | `git cherry-pick <commit from another branch>`                   | Merges a particular commit from another branch | `git cherry-pick xyz123`                                              |
+| `git tag`                               | List all tags in the repository            | -                                                   |
+| `git tag <tag-name>`                    | Create a new tag                           | `git tag v1.0.0`                                    |
+| `git tag -a <tag-name> -m "message"`    | Create an annotated tag with a message     | `git tag -a v1.0.0 -m "Release version 1.0.0"`      |
+| `git show <tag-name>`                   | Show details of a specific tag             | `git show v1.0.0`                                   |
+| `git push --tags`                       | Push tags to a remote repository            | `git push --tags`                                   |
+| `git blame <file>`                      | Show who last modified each line of a file | `git blame myfile.txt`                             |
+| `git reflog`                            | Show a log of all Git references           | -                                                   |
+| `git gc`                                | Perform Git garbage collection             | -                                                   |
+| `git archive --format=zip --output=filename.zip <branch-name>` | Create a zip archive of a specific branch | `git archive --format=zip --output=mybranch.zip main` |
+| `git grep <text>`                      | Search for text in your Git repository     | `git grep "search text"`                            |
 
 ---
