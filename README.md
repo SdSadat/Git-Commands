@@ -133,5 +133,6 @@
 | `git show <commit> --stat`                   | display a histogram showing inserts,deletion and modifications per file for a specific commtit along with general commit information| -                                               |
 | `git bisect`                   | A powerful Git command used to find the commit that introduced a bug or regression in your codebase. It performs a binary search through the commit history to identify the specific commit where the issue was introduced.| `git bisect start` , `git bisect good` , `git bisect bad`                                          |
 | `git commit --amend`                   | Amends the most recent commit with the new changes | -                                               |
+| `git cherry-pick <commit from another branch>`                   | Merges a particular commit from another branch | `git cherry-pick xyz123`                                              |
 
 ---
