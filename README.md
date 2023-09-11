@@ -96,8 +96,8 @@ This repository serves as a cheatsheet for common Git commands and best practice
 
 | Command                                        | Description                        | Example(s)                                          |
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
-| `git stash`       |store modified and staged changes         | -              |
-| `git stash save "comment"`              |stash the modified changes with description| `git stash save "Work in Progress - Feature 1"`               |
+| `git stash`       |Store modified and staged changes         | -              |
+| `git stash save "comment"`              |Stash the modified changes with description| `git stash save "Work in Progress - Feature 1"`               |
 | `git stash list`              |List all stashes| -               |
 | `git stash apply`              |Applies the most recent stash entry to your working directory, without deleting the stash entry| -               |
 | `git stash pop`              |Applies the most recent stash entry to your working directory and deletes it| -               |
@@ -165,7 +165,7 @@ This repository serves as a cheatsheet for common Git commands and best practice
 | `git log -S "string"`       | Search git commits with particular string            | `git log -S "feature"`               |
 | `git clean -f`              | Clean all untracked files    | -              |
 | `git commit --amend`                   | Amends the most recent commit with the new changes | -                                               |
-| `git show <commit> --stat`                   | Displayed a histogram showing inserts,deletion and modifications per file for a specific commtit along with general commit information| -                                               |
+| `git show <commit> --stat`                   | Displayed a histogram showing inserts, deletions and modifications per file for a specific commit along with general commit information| -                                               |
 | `git bisect`                   | A powerful Git command used to find the commit that introduced a bug or regression in your codebase. It performs a binary search through the commit history to identify the specific commit where the issue was introduced.| `git bisect start` , `git bisect good` , `git bisect bad`                                          |
 | `git commit --amend`                   | Amends the most recent commit with the new changes | -                                               |
 | `git cherry-pick <commit from another branch>`                   | Merges a particular commit from another branch | `git cherry-pick xyz123`                                              |
