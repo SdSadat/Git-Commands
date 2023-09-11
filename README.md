@@ -77,7 +77,7 @@ This repository serves as a cheatsheet for common Git commands and best practice
 | `git merge <branch-name>`       | Merge a branch          | `git merge feature-branch`               |
 | `git merge <source-branch> <target-branch>`              |Merge a branch into target branch | `git merge feature-V1 feature-V0`               |
 | `git merge --squash <branch-name>`              |Merge a branch with all commits squashed into single commit | `git merge --squash feature-V0`               |
-| `git rebase <branch-name>`              |Merge a branch without creating new merge commit, keeps work history clean | `git reabase feature-branch`               |
+| `git rebase <branch-name>`              |Merge a branch without creating new merge commit, keeps work history clean | `git rebase feature-branch`               |
 ---
 
 ### **Reviewing**
