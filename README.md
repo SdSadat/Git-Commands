@@ -1,6 +1,28 @@
 # Git-Commands
 
 ---
+# Git Commands Cheatsheet
+
+## Introduction
+
+This repository serves as a cheatsheet for common Git commands and best practices. Whether you're a beginner looking to get started with Git or an experienced developer wanting to brush up on your Git skills, you'll find useful information here.
+
+## Table of Contents
+
+- [Basic Git Commands](#basic-git-commands)
+- [Getting Started with Git](#getting-started-with-git)
+- [Committing Changes](#committing-changes)
+- [Branching](#branching)
+- [Merging](#merging)
+- [Reviewing](#reviewing)
+- [Stashing](#stashing)
+- [Git Commands Related to Remote Repositories](#git-commands-related-to-remote-repositories)
+- [Reverting and Resetting Commands](#reverting-and-resetting-commands)
+- [Common Configuration](#common-configuration)
+- [Miscellaneous](#miscellaneous)
+
+## Basic Git Commands
+
 
 ## *Basic Git Commands*
 
@@ -22,7 +44,7 @@
 
 ---
 
-### **Commiting Changes**
+### **Committing Changes**
 
 | Command                 | Description                               | Example(s)                                            |
 | ------------------------ | ----------------------------------------- |----------------------------------------------------- |
