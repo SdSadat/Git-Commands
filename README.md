@@ -42,8 +42,8 @@
 | `git branch -D <branch-name>`| Delete a branch (Merged or not)|  `git branch -D test-branch`|
 | `git branch -m <old-branch-name> <new-branch-name>`| Rename a branch | `git branch -m  feature-branch-v1.0  feature-branch-v2.0`|
 | `git push origin --delete <branch-name>`| Delete a remote branch|  `git push origin --delete feature-branch`|
-| `git checkout <branch-name>`| switch to a branch |  `git checkout feature-branch`|
-| `git checkout -b <branch-name>`| create a new branch and switch to it |  `git checkout -b feature-branch`|
+| `git checkout <branch-name>`| Switch to a branch |  `git checkout feature-branch`|
+| `git checkout -b <branch-name>`| Create a new branch and switch to it |  `git checkout -b feature-branch`|
 | `git checkout -- <file-name>`| Discard changes to a file | `git checkout -- test.txt`|
 | `git checkout .`| Discard all changes in your working directory and  revert the files to the last committed state. | -|
 
@@ -95,8 +95,8 @@
 | `git push origin <branch-name>`       |Push a branch to the remote repository      | `git push origin feature-branch`              |
 | `git push origin --delete <branch-name>`       |Delete a remote branch    | `git push origin --delete feature-branch`           |
 | `git fetch origin`       |Fetch the changes from remote repository without merging   | -|
-| `git fetch origin <branch-name>`       |fetch changes from a remote branch without merging  | `git fetch origin main`           |
-| `git remote`       |view all remote connections        | -              |
+| `git fetch origin <branch-name>`       |Fetch changes from a remote branch without merging  | `git fetch origin main`           |
+| `git remote`       |View all remote connections        | -              |
 | `git remote remove <connection-name>`              |Remove a connection| -               |
 | `git remote rename <old-name> <new-name>`              |Rename a connection| -            |
 | `git pull --rebase origin`              |Rebase local changes on top of new changes from remote repository| -               |
@@ -132,9 +132,9 @@
 | Command                                        | Description                        | Example(s)                                          |
 | ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
 | `git log -S "string"`       | Search git commits with particular string            | `git log -S "feature"`               |
-| `git clean -f`              | clean all untracked files    | -              |
+| `git clean -f`              | Clean all untracked files    | -              |
 | `git commit --amend`                   | Amends the most recent commit with the new changes | -                                               |
-| `git show <commit> --stat`                   | display a histogram showing inserts,deletion and modifications per file for a specific commtit along with general commit information| -                                               |
+| `git show <commit> --stat`                   | Displayed a histogram showing inserts,deletion and modifications per file for a specific commtit along with general commit information| -                                               |
 | `git bisect`                   | A powerful Git command used to find the commit that introduced a bug or regression in your codebase. It performs a binary search through the commit history to identify the specific commit where the issue was introduced.| `git bisect start` , `git bisect good` , `git bisect bad`                                          |
 | `git commit --amend`                   | Amends the most recent commit with the new changes | -                                               |
 | `git cherry-pick <commit from another branch>`                   | Merges a particular commit from another branch | `git cherry-pick xyz123`                                              |
