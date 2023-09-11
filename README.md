@@ -1,7 +1,7 @@
 # Git-Commands
 
 ---
-# Git Commands Cheatsheet
+
 
 ## Introduction
 
