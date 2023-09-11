@@ -19,9 +19,8 @@ This repository serves as a cheatsheet for common Git commands and best practice
 - [Git Commands Related to Remote Repositories](#git-commands-related-to-remote-repositories)
 - [Reverting and Resetting Commands](#reverting-and-resetting-commands)
 - [Common Configuration](#common-configuration)
+- [Git Tag](#git-tag)
 - [Miscellaneous](#miscellaneous)
-
-## Basic Git Commands
 
 
 ## *Basic Git Commands*
@@ -78,7 +77,7 @@ This repository serves as a cheatsheet for common Git commands and best practice
 | `git merge <branch-name>`       | Merge a branch          | `git merge feature-branch`               |
 | `git merge <source-branch> <target-branch>`              |Merge a branch into target branch | `git merge feature-V1 feature-V0`               |
 | `git merge --squash <branch-name>`              |Merge a branch with all commits squashed into single commit | `git merge --squash feature-V0`               |
-
+| `git rebase <branch-name>`              |Merge a branch without creating new merge commit, keeps work history clean | `git reabase feature-branch`               |
 ---
 
 ### **Reviewing**
@@ -147,6 +146,16 @@ This repository serves as a cheatsheet for common Git commands and best practice
 | `git config --global core.editor`              | Configure default text editor      | `git config --global core.editor "code"`               |
 | `git config --global --edit`                   | Edit Git configuration in an editor | -                                               |
 
+
+### **Git Tag**
+
+| Command                                        | Description                        | Example(s)                                          |
+| ---------------------------------------------- | ---------------------------------- | --------------------------------------------------- |
+| `git tag`                               | List all tags in the repository            | -                                                   |
+| `git tag <tag-name>`                    | Create a new tag                           | `git tag v1.0.0`                                    |
+| `git tag -a <tag-name> -m "message"`    | Create an annotated tag with a message     | `git tag -a v1.0.0 -m "Release version 1.0.0"`      |
+| `git show <tag-name>`                   | Show details of a specific tag             | `git show v1.0.0`                                   |
+| `git push --tags`                   | Push tags to remote repository           |-                                |
 ---
 
 ### **Miscellaneous**
@@ -160,10 +169,6 @@ This repository serves as a cheatsheet for common Git commands and best practice
 | `git bisect`                   | A powerful Git command used to find the commit that introduced a bug or regression in your codebase. It performs a binary search through the commit history to identify the specific commit where the issue was introduced.| `git bisect start` , `git bisect good` , `git bisect bad`                                          |
 | `git commit --amend`                   | Amends the most recent commit with the new changes | -                                               |
 | `git cherry-pick <commit from another branch>`                   | Merges a particular commit from another branch | `git cherry-pick xyz123`                                              |
-| `git tag`                               | List all tags in the repository            | -                                                   |
-| `git tag <tag-name>`                    | Create a new tag                           | `git tag v1.0.0`                                    |
-| `git tag -a <tag-name> -m "message"`    | Create an annotated tag with a message     | `git tag -a v1.0.0 -m "Release version 1.0.0"`      |
-| `git show <tag-name>`                   | Show details of a specific tag             | `git show v1.0.0`                                   |
 | `git push --tags`                       | Push tags to a remote repository            | `git push --tags`                                   |
 | `git blame <file>`                      | Show who last modified each line of a file | `git blame myfile.txt`                             |
 | `git reflog`                            | Show a log of all Git references           | -                                                   |
