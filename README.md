@@ -88,7 +88,7 @@ This repository serves as a cheatsheet for common Git commands and best practice
 | `git log`              | Displays a detailed commit history of the current branch | -          |
 | `git log --oneline`              |Displays a simplified commit history of the current branch in a compact format | -          |
 | `git diff`              | Shows the differences between your working directory and the most recent commit | -          |
-| `git diff <commit1> <commit2>`              | Compares two commits and displays the differences between themt | `git diff abc123 xyz987`        |
+| `git diff <commit1> <commit2>`              | Compares two commits and displays the differences between them | `git diff abc123 xyz987`        |
 
 ---
 
