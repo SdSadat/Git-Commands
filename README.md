@@ -5,7 +5,7 @@
 
 ## Introduction
 
-This repository serves as a cheatsheet for common Git commands and best practices. Whether you're a beginner looking to get started with Git or an experienced developer wanting to brush up on your Git skills, you'll find useful information here.
+This repository serves as a cheat sheet for common Git commands and best practices. Whether you're a beginner looking to get started with Git or an experienced developer wanting to brush up on your Git skills, you'll find useful information here.
 
 ## Table of Contents
 
